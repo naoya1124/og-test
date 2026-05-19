@@ -10,8 +10,8 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
   const isGame = game === '1'
 
   const title = isGame
-    ? 'Diorアニバーサリー ゲーム開催中！'
-    : 'Diorアニバーサリー'
+    ? 'テストページ ゲーム開催中！'
+    : 'テストページ ゲームはお休み中'
 
   const description = isGame
     ? 'スペシャルゲームを体験しよう'
@@ -19,8 +19,8 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
 
   // Vercel公式のOG画像生成サービスを利用（外部画像ホスティング不要）
   const ogImage = isGame
-    ? 'https://og-image.vercel.app/Dior%20Game.png?theme=dark&md=1&fontSize=100px'
-    : 'https://og-image.vercel.app/Dior%20Anniversary.png?theme=light&md=1&fontSize=100px'
+    ? 'https://og-image.vercel.app/test1.png'
+    : 'https://og-image.vercel.app/test2.png'
 
   return {
     title,
