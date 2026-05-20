@@ -19,8 +19,8 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
 
   // Vercel公式のOG画像生成サービスを利用（外部画像ホスティング不要）
   const ogImage = isGame
-    ? 'https://og-image.vercel.app/event/og-test/test1.png'
-    : 'https://og-image.vercel.app/event/og-test/test2.png'
+    ? 'https://og-test-zgvz-git-vercel-react-serve-cd9a24-n-maekawa-s-projects.vercel.app/test1.png'
+    : 'https://og-test-zgvz-git-vercel-react-serve-cd9a24-n-maekawa-s-projects.vercel.app/test2.png'
 
   return {
     title,
